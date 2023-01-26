@@ -37,7 +37,8 @@ header {
     justify-content: space-between;
     margin-left: 124px;
 }
-.menu>div>a{
+
+.menu>div>a {
     text-decoration: none;
     font-family: 'Gilroy-Regular';
     font-style: normal;
@@ -45,7 +46,7 @@ header {
     font-size: 14px;
     line-height: 140%;
     color: #FFFFFF;
-    
+
 }
 
 .icon_wk {
@@ -142,14 +143,15 @@ header {
     flex-grow: 0;
     padding: 10px 20px;
     text-decoration: none;
-   
+
 }
 
-.grid-section-content-div-img{
+.grid-section-content-div-img {
     width: 342px;
     height: 240px;
 }
-.menu-down{
+
+.menu-down {
     position: absolute;
     width: 742px;
     padding-top: 43px;
@@ -159,7 +161,7 @@ header {
     margin-top: -100px;
 }
 
-.menu-down>div>a{
+.menu-down>div>a {
 
     text-decoration: none;
     font-family: 'Gilroy-Regular';
@@ -168,5 +170,28 @@ header {
     font-size: 14px;
     line-height: 140%;
     color: black;
-    
+
+}
+
+.log {
+    position: absolute;
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+    margin-top: -60px;
+    margin-left: 312px;
+}
+
+.footer-icon_wk{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-left: 1464px;
+   
+    margin-top: -65px;
 }
